@@ -11,3 +11,8 @@ Currently, two official plugins are available:
 - read docs for setting up environment variable 
 - do not import them directly in your project instead make a separate conf file and export them in key: value pair in conf object. and destructure the required variable in your project.
 - Also make a separate .env.sample file and copy all env variables in that.
+
+- APPWRITE AUTH SERVICE 
+
+  - Read appwrite docs for auth service(created a class and required methods inside this class, using that class object is created- basically used both js OOPs and appwrite auth service)
+  - "production grade code" , created a wrapper so that our project is not bothered about which service is used whether it is appwrite or firebase or any server.
