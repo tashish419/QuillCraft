@@ -16,3 +16,10 @@ Currently, two official plugins are available:
 
   - Read appwrite docs for auth service(created a class and required methods inside this class, using that class object is created- basically used both js OOPs and appwrite auth service)
   - "production grade code" , created a wrapper so that our project is not bothered about which service is used whether it is appwrite or firebase or any server.
+
+- APPWRITE DATABASE AND STORAGE SERVICE
+  
+  - again refer to appwrite docs for database and storage(read about configuration and how perform crud operation for post and for file as well)
+  - similar  to auth, created a class and methods and exported that. created object using new keyword(OOPs)
+  - Services used for post(databases related): createPost, updatePost, deletePost, getPost, getPosts
+  - Services used for files(storage related): createFile, deleteFile, getFilePreview
